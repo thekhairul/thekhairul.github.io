@@ -10130,7 +10130,8 @@ body.header-visible #header {
       background-size: cover;
       background-position: center center; }
     #main > section.one {
-      background-color: #26a69a; }
+      background-color: #26a69a;
+      min-height: 100vh; }
     #main > section.two {
       background-color: #f5fafa; }
     #main > section.three {
@@ -10445,11 +10446,18 @@ i {
   background: #26a69a; }
 .services .tabs li a {
   font-weight: bolder; }
-.services .card-panel h4 {
-  margin: 20px 0;
-  font-weight: bolder; }
-.services .card-panel p {
-  font-size: 0.8em; }
+.services .card-panel {
+  min-height: 385px; }
+  .services .card-panel h4 {
+    margin: 20px 0;
+    font-weight: bolder; }
+  .services .card-panel p {
+    font-size: 0.8em;
+    margin-bottom: 10px; }
+  .services .card-panel ul li {
+    font-size: 0.7em;
+    list-style: square;
+    list-style-position: inside; }
 
 .skills .skill-wrapper {
   width: 80%;

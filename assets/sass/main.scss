@@ -694,7 +694,7 @@ body {
 
 			&.one {
 				background-color: #26a69a;
-				// background-image: url('../../images/banner.jpg');
+				min-height: 100vh;
 			}
 
 			&.two {
@@ -1193,12 +1193,22 @@ body {
 			}
 		}
 		.card-panel {
+			min-height: 385px;
 			h4 {
 				margin: 20px 0;
 				font-weight: bolder;
 			}
 			p {
 				font-size: 0.8em;
+				margin-bottom: 10px;
+			}
+			ul {
+				li {
+					font-size: 0.7em;
+					list-style: square;
+					list-style-position: inside;
+
+				}
 			}
 		}
 	}
