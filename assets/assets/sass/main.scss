@@ -1183,6 +1183,10 @@ body {
 	.services {
 
 		.tabs {
+			overflow-x: hidden;
+			.tab {
+				min-width: inherit;
+			}
 			.indicator {
 				background: $color_focus;
 			}

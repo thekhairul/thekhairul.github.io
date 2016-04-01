@@ -10441,10 +10441,14 @@ i {
 .section-title {
   margin: 30px 0; }
 
-.services .tabs .indicator {
-  background: #26a69a; }
-.services .tabs li a {
-  font-weight: bolder; }
+.services .tabs {
+  overflow-x: hidden; }
+  .services .tabs .tab {
+    min-width: inherit; }
+  .services .tabs .indicator {
+    background: #26a69a; }
+  .services .tabs li a {
+    font-weight: bolder; }
 .services .card-panel {
   min-height: 385px; }
   .services .card-panel h4 {
