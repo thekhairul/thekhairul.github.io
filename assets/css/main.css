@@ -9954,8 +9954,7 @@ button,
     display: none; }
 
 .js body {
-  overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-x: hidden; }
 
 body.header-visible #main {
   -moz-transform: translateX(275px);
