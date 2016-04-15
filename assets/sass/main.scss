@@ -655,7 +655,7 @@ body {
 		// margin-left: 375px;
 		@include vendor('transition', 'transform #{_duration(header)} ease');
 
-		> section {
+		 section {
 			margin: 0;
 			overflow: hidden;
 			padding: 4em 0;
@@ -666,6 +666,15 @@ body {
 			&.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
+
+				.home-header {
+					img {
+						width: 230px;
+					}
+					h2 {
+						font-size: 1.6em;
+					}
+				}
 
 				h2, h3, h4, h5, h6 {
 					color: inherit;
@@ -687,7 +696,7 @@ body {
 			}
 
 			&.cover {
-				padding: 6em 0;
+				padding: 4em 0;
 				background-size: cover;
 				background-position: center center;
 			}
@@ -695,6 +704,7 @@ body {
 			&.one {
 				background-color: #26a69a;
 				min-height: 100vh;
+				padding: 4em 0;
 			}
 
 			&.two {
@@ -754,7 +764,7 @@ body {
 
 				section {
 					&.cover {
-						padding: 5em 0;
+						padding: 4em 0;
 					}
 				}
 			}
