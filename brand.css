@@ -1,20 +1,20 @@
 :root {
-	--brand-primary-lightest: #FFDEE4;
-    --brand-primary-lighter: #FECFD8;
-    --brand-primary-light: #FEA7B8;
-    --brand-primary: #FD6481;
-    --brand-primary-dark: #EA3D5E;
-    --brand-primary-darker: #BD104A;
-    --brand-primary-darkest: #991029;
+	--brand-primary-lightest: #8bddbe;
+    --brand-primary-lighter: #6acfa9;
+    --brand-primary-light: #2caa7a;
+    --brand-primary: #15a16b;
+    --brand-primary-dark: #139160;
+    --brand-primary-darker: #118156;
+    --brand-primary-darkest: #0f714b;
     --brand-primary-invert: #fff;
 
-    --brand-secondary-lightest: #a4a8c0;
-    --brand-secondary-lighter: #8689a4;
-    --brand-secondary-light: #545671;
-    --brand-secondary: #282b49;
-    --brand-secondary-dark: #1f2241;
-    --brand-secondary-darker: #191c3c;
-	--brand-secondary-darkest: #10163a;
+    --brand-secondary-lightest: #9b9b9b;
+    --brand-secondary-lighter: #646464;
+    --brand-secondary-light: #333333;
+    --brand-secondary: #292929;
+    --brand-secondary-dark: #1f1f1f;
+    --brand-secondary-darker: #1f1f1f;
+	--brand-secondary-darkest: #1f1f1f;
     --brand-secondary-invert: #fff;
 
     --brand-success: #7dfcb3;
