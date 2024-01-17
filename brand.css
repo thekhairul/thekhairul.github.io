@@ -10,11 +10,11 @@
 
     --brand-secondary-lightest: #9b9b9b;
     --brand-secondary-lighter: #646464;
-    --brand-secondary-light: #333333;
-    --brand-secondary: #292929;
+    --brand-secondary-light: #414141;
+    --brand-secondary: #2f2e2e;
     --brand-secondary-dark: #1f1f1f;
     --brand-secondary-darker: #1f1f1f;
-	--brand-secondary-darkest: #1f1f1f;
+    --brand-secondary-darkest: #1f1f1f;
     --brand-secondary-invert: #fff;
 
     --brand-success: #7dfcb3;
